@@ -2,12 +2,12 @@
 
 This is a web-based Air Quality Monitoring System developed using Python (Flask) and HTML/JavaScript. It visualizes real-time environmental sensor data such as temperature, humidity, dust, and light intensity. The system includes interactive charts and a live data table for monitoring purposes.
 
-![Index](README images/dashboard-preview.png)
-![Temperature](README images/dashboard.png)
-![Dust](README images/temperature graph.png)
-![Light](README images/humidity graph.png)
-![Humidity](README images/dust graph.png)
-![Raw Data Table](README images/light.png)
+![Index](READMEimages/dashboard-preview.png)
+![Temperature](READMEimages/dashboard.png)
+![Dust](READMEimages/temperature graph.png)
+![Light](READMEimages/humidity graph.png)
+![Humidity](READMEimages/dust graph.png)
+![Raw Data Table](READMEimages/light.png)
 
 
 
