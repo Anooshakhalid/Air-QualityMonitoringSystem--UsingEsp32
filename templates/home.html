@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Air Quality Monitoring System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #ffffff;
+            height: 100vh;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        header, footer {
+            background: linear-gradient(to right, #6dd5ed, #2193b0);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        .main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            gap: 40px;
+        }
+        .image-container img {
+        margin-left: 50px;
+        width: 650px;
+        height: 420px;
+        object-fit: contain;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        transition: none;
+        cursor: default;
+        }
+        .content {
+            flex: 1;
+            padding: 0 20px;
+            text-align: left;
+        }
+        .content h1 {
+            font-size: 38px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .content h1 span {
+            color: #f26c00;
+        }
+        .content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        .rollnos {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        .rollnos strong {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+        }
+        button {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            padding: 12px 30px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: linear-gradient(to right, #00f2fe, #4facfe);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    MICROPROCESSOR BASED SYSTEM DESIGN - (CS-301) PROJECT
+</header>
+
+<div class="main">
+    <div class="image-container">
+        <img src="static/images/cover1.jpg" alt="Air Quality Monitoring System Image">
+    </div>
+    <div class="content">
+        <h1>AIR QUALITY <span>MONITORING SYSTEM</span></h1>
+
+        <p>
+            Using ESP32 and multiple environmental sensors, this project monitors dust, humidity, temperature, and light intensity — providing real-time data to a smart dashboard.
+        </p>
+
+        <div class="rollnos">
+            <strong>Roll Numbers:</strong>
+            CS22101 • CS22104 • CS22107 • CS22108
+            <br>
+            <strong>Instructor:</strong> Dr Muhammad Khurram
+        </div>
+
+        <button onclick="location.href='./dashboard'">Go to Dashboard</button>
+    </div>
+</div>
+
+<footer>
+    © 2025 NED UNIVERSITY OF ENGINEERING & TECHNOLOGY | COMPUTER SYSTEMS ENGINEERING
+</footer>
+
+</body>
+</html>
