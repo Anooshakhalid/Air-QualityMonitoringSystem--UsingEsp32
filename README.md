@@ -4,9 +4,9 @@ This is a web-based Air Quality Monitoring System developed using Python (Flask)
 
 ![Index](READMEimages/dashboard-preview.png)
 ![Temperature](READMEimages/dashboard.png)
-![Dust](READMEimages/temperature graph.png)
-![Light](READMEimages/humidity graph.png)
-![Humidity](READMEimages/dust graph.png)
+![Dust](READMEimages/temperature-graph.png)
+![Light](READMEimages/humidity-graph.png)
+![Humidity](READMEimages/dust-graph.png)
 ![Raw Data Table](READMEimages/light.png)
 
 
