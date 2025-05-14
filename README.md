@@ -2,6 +2,12 @@
 
 This is a web-based Air Quality Monitoring System developed using Python (Flask) and HTML/JavaScript. It visualizes real-time environmental sensor data such as temperature, humidity, dust, and light intensity. The system includes interactive charts and a live data table for monitoring purposes.
 
+Hardware circuit:
+![Circuit](READMEimages/circuit.png)
+![Closeup](READMEimages/circuit_closeup.png)
+
+
+Website:
 ![Index](READMEimages/dashboard-preview.png)
 ![Temperature](READMEimages/dashboard.png)
 ![Dust](READMEimages/temperature-graph.png)
@@ -10,6 +16,8 @@ This is a web-based Air Quality Monitoring System developed using Python (Flask)
 ![Raw Data Table](READMEimages/light.png)
 
 
+## Hardware
+- All the information related to hardware is in the report.
 
 
 ## Features
@@ -76,6 +84,11 @@ AirQualityMonitoringSystem/
 
 - To enable location-based city and country detection, you can use the IPInfo API.
 - Without the token, location detection is disabled by default.
+
+
+## Cost
+
+- Around 7000Pkr
 
 
 ## Contact
